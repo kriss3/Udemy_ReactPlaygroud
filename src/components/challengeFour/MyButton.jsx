@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Input } from 'antd';
 
 class MyButton extends Component {
 
@@ -10,6 +11,7 @@ class MyButton extends Component {
         return (
             <div>
                 <button onClick={this.localClickHandler}> +{this.props.increment} </button>
+                <Input></Input>
             </div>
         );
     }

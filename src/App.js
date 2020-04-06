@@ -6,8 +6,10 @@ import BtnHello from './components/challengeTwo/BtnHello';
 import Hello from './components/challengeThree/Hello';
 import Actor from './components/actor/Actor';
 import TopLevel from './components/challengeFour/TopLevel';
+import AntTbl from './components/antTable/AntTbl';
 
 import './App.css';
+
 
 function App() {
   return (
@@ -20,7 +22,8 @@ function App() {
         <BtnHello country='Poland'/> <br/><br/>
         <Hello countryName='Canada' population={400}/> <br/><br/>
         <Actor /> <br/><br/>
-        <TopLevel />
+        <TopLevel /> <br/><br/>
+        <AntTbl />
       </header>
     </div>
   );
