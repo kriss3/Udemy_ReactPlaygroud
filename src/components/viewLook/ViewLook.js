@@ -12,6 +12,7 @@ import {
 } from '@ant-design/icons';
 
 import Documents from '../documents/Documents';
+import Garage from '../../components/garage/Garage';
 
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -63,6 +64,8 @@ export default class ViewLook extends Component {
                         </Breadcrumb>
                         <div className="site-layout-background" style={{ padding: 24, minHeight: 360 }}>
                             <Documents />
+                            <hr/>
+                            <Garage />
                         </div>
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>

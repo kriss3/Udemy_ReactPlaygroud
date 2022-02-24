@@ -1,5 +1,5 @@
 import React from 'react';
-import Car from './car';
+import Car from '../car/Car';
 
 function Garage() {
     const cars = ['Fiat','Renault','Opel'];
