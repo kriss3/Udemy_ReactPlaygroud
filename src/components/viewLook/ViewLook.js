@@ -13,6 +13,7 @@ import {
 
 import Documents from '../documents/Documents';
 import Garage from '../../components/garage/Garage';
+import Counter from '../../components/counter/Counter';
 
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -66,6 +67,10 @@ export default class ViewLook extends Component {
                             <Documents />
                             <hr/>
                             <Garage />
+                            <hr/>
+                            <p>Insert Value</p>
+                            <input text='' placeholder='Insert Value' />
+                            <Counter initVal={5} />
                         </div>
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
