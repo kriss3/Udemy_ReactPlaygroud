@@ -1,10 +1,17 @@
 
 import React from 'react';
 
+const handleClick = () => {
+    alert('I was clicked');
+};
+
+
 function Counter(props) {
+
     return (
         <div>
-            The initial value is {props.initVal}
+            <input type='number' />
+            <button onClick={handleClick}>+</button>
         </div>
     );
 }

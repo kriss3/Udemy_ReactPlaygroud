@@ -68,9 +68,7 @@ export default class ViewLook extends Component {
                             <hr/>
                             <Garage />
                             <hr/>
-                            <p>Insert Value</p>
-                            <input text='' placeholder='Insert Value' />
-                            <Counter initVal={5} />
+                            <Counter />
                         </div>
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
