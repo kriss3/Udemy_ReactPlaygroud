@@ -1,17 +1,23 @@
 
-import React from 'react';
-
-const handleClick = () => {
-    alert('I was clicked');
-};
-
+import React, {useState} from 'react';
 
 function Counter(props) {
 
+    const [myVal, setMyVal] = useState(0);
+
+    const increment = () => {
+        setMyVal(myVal +1);
+    };
+
+    const decrement = () => {
+        setMyVal(myVal -1);
+    };
+
     return (
         <div>
-            <input type='number' />
-            <button onClick={handleClick}>+</button>
+            <input value={myVal} type='number' />
+            <button onClick={increment}>+</button>
+            <button onClick={decrement}>-</button>
         </div>
     );
 }
