@@ -14,7 +14,7 @@ import {
 import Documents from '../documents/Documents';
 import Garage from '../../components/garage/Garage';
 import Counter from '../../components/counter/Counter';
-
+import Login from '../../components/login/Login';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -69,6 +69,8 @@ export default class ViewLook extends Component {
                             <Garage />
                             <hr/>
                             <Counter />
+                            <hr/>
+                            <Login />
                         </div>
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
