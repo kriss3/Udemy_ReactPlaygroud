@@ -25,4 +25,4 @@ function GitHubUser(props) {
     );
 }
 
-export default Github;
+export default GitHubUser;
