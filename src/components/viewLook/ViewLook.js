@@ -73,7 +73,7 @@ export default class ViewLook extends Component {
                             <hr/>
                             <Login />
                             <hr />
-                            <GitHubUser />
+                            <GitHubUser login={'moonhighway'} />
                         </div>
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>

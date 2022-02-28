@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react';
 
 
-function GitHubUser(props) {
+function GitHubUser({login}) {
 
     const [data, setData] = useState(null);
 
     const getData = () => {
-        let url = 'https://api.github.com/users/moonhighway';
+        let url = `https://api.github.com/users/${login}`;
         fetch(url)
         .then(res => res.json())
         .then(setData)
