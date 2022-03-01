@@ -69,13 +69,12 @@ export default class ViewLook extends Component {
                             <hr/>
                             <Garage />
                             <hr/>
-                            <Counter />
-                            <hr/>
                             <Login />
                             <hr />
                             <GitHubUser login={'moonhighway'} />
                         </div>
                     </Content>
+                    <Content><Counter /></Content>
                     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
                 </Layout>
             </Layout>
