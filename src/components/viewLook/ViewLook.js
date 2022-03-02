@@ -11,11 +11,14 @@ import {
   UserOutlined,
 } from '@ant-design/icons';
 
+import { Link } from 'react-router-dom';
+
 import Documents from '../documents/Documents';
 import Garage from '../../components/garage/Garage';
 import Counter from '../../components/counter/Counter';
 import Login from '../../components/login/Login';
 import GitHubUser from '../../components/githubuser/GitHubUser'
+import Page1 from '../../pages/Page1';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -45,7 +48,7 @@ export default class ViewLook extends Component {
                         </Menu.Item>
                         <SubMenu key="sub1" icon={<UserOutlined />} title="User">
                             <Menu.Item key="3">Tom</Menu.Item>
-                            <Menu.Item key="4">Bill</Menu.Item>
+                            <Menu.Item key="4"><Link to='/page1' Component={Login}>Bill</Link></Menu.Item>
                             <Menu.Item key="5">Alex</Menu.Item>
                         </SubMenu>
                         <SubMenu key="sub2" icon={<TeamOutlined />} title="Team">
@@ -66,15 +69,8 @@ export default class ViewLook extends Component {
                         </Breadcrumb>
                         <div className="site-layout-background" style={{ padding: 24, minHeight: 360 }}>
                             <Documents />
-                            <hr/>
-                            <Garage />
-                            <hr/>
-                            <Login />
-                            <hr />
-                            <GitHubUser login={'moonhighway'} />
                         </div>
                     </Content>
-                    <Content><Counter /></Content>
                     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
                 </Layout>
             </Layout>
