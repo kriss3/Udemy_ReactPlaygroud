@@ -1,8 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Name  
+## Project Name
 
 rjsplayground
+
+## Description
+
+Project to learn and experiment with React features.
 
 ## Available Scripts
 
