@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project Name
 
-rjsplayground
+rjsplayground - lightway of learning different react.js concepts.
 
 ## Description
 
