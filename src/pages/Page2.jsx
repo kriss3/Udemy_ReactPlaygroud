@@ -31,21 +31,21 @@ export const Page2 = () => {
 }
 
 const CustomComponent = () => {
-    const [field1, setField1] = useState('');
-    const [field2, setField2] = useState('');
+    const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
 
     return (
         <div>
             <input 
                 type="text" 
-                value={field1} 
-                onChange={(e) => setField1(e.target.value)} 
+                value={firstName} 
+                onChange={(e) => setFirstName(e.target.value)} 
                 placeholder="Field 1" 
             />
             <input 
                 type="text" 
-                value={field2} 
-                onChange={(e) => setField2(e.target.value)} 
+                value={lastName} 
+                onChange={(e) => setLastName(e.target.value)} 
                 placeholder="Field 2" 
             />
         </div>
