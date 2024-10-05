@@ -11,7 +11,8 @@ Project to learn and experiment with React features.
 - Started with create-react-app via npx and moving on to vercel.
 - API calls to the backend (mainly ASP.NET WebApi) via Axios and moving on/extending to SWR library.  
 - Experimenting with different strategies for component decomposition.
-- more to come.
+- Component development.
+- Bootstrap or Tailwind. 
   
 ## Available Scripts
 
@@ -76,6 +77,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
