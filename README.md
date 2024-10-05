@@ -6,8 +6,13 @@ rjsplayground - lightway of learning different react.js concepts.
 
 ## Description
 
-Project to learn and experiment with React features.
-
+Project to learn and experiment with React features.  
+- Starting with jsx and moving on to TypeScript.
+- Started with create-react-app via npx and moving on to vercel.
+- API calls to the backend (mainly ASP.NET WebApi) via Axios and moving on/extending to SWR library.  
+- Experimenting with different strategies for component decomposition.
+- more to come.
+  
 ## Available Scripts
 
 In the project directory, you can run:
