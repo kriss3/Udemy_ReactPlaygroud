@@ -12,7 +12,8 @@ Project to learn and experiment with React features.
 - API calls to the backend (mainly ASP.NET WebApi) via Axios and moving on/extending to SWR library.  
 - Experimenting with different strategies for component decomposition.
 - Component development.
-- Bootstrap or Tailwind. 
+- Bootstrap or Tailwind.
+- Managing the state. From props to passing down the top context api.smtp.com up until advanced liberal like Redux.  
   
 ## Available Scripts
 
