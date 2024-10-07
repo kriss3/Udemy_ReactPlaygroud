@@ -13,7 +13,8 @@ Project to learn and experiment with React features.
 - Experimenting with different strategies for component decomposition.
 - Component development.
 - Bootstrap or Tailwind.
-- Managing the state. From props to passing down the top context api.smtp.com up until advanced liberal like Redux.  
+- Managing the state. From props to passing down the top context api.smtp.com up until advanced liberal like Redux.
+- Next step, NetNinja. Get familiar with react outside of npx create-react-app...
   
 ## Available Scripts
 
