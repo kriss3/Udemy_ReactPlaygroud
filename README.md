@@ -15,7 +15,8 @@ Project to learn and experiment with React features.
 - Bootstrap or Tailwind.
 - Managing the state. From props to passing down the top context api.smtp.com up until advanced liberal like Redux.
 - Next step, NetNinja. Get familiar with react outside of npx create-react-app.
-- I had a moment of realization today at work - I noticed I don't have fully understand component state using a combination of useState, useEffect and swr/fetcher.
+- I had a moment of realization today at work. I noticed I don't have fully understand component state using a combination of useState, useEffect and swr/fetcher.
+Planning to spend sometime to work on custom views that contain a composition of component that need to depend on a some state before/and/or after some calls to different API endpoints 
   
 ## Available Scripts
 
