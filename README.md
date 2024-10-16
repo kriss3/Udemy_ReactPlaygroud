@@ -19,7 +19,10 @@ Project to learn and experiment with React features.
 Planning to spend sometime to work on custom views that contain a composition of components that can depend on some state before/and/or after calls to external/different API endpoints.
 - Types vs interfaces in React.js app.
 - useFormik, simple dropdown and Read/Editing mode form to submit data to the Backend (form with edit/read-only mode) + edit existing values
-- Only allow you for editing License Number when existing record had previously license number. Every other uses default read only view  
+- Only allow you for editing License Number when existing record had previously license number. Every other uses default read only view
+- SWR lib and useSwr hook need more attention. Especially when setting up keys which swr will use to retrieve values from its cache  
+
+  
   
 ## Available Scripts
 
