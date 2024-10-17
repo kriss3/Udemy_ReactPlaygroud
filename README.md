@@ -21,6 +21,8 @@ Planning to spend sometime to work on custom views that contain a composition of
 - useFormik, simple dropdown and Read/Editing mode form to submit data to the Backend (form with edit/read-only mode) + edit existing values
 - Only allow you for editing License Number when existing record had previously license number. Every other uses default read only view
 - SWR lib and useSwr hook need more attention. Especially when setting up keys which swr will use to retrieve values from its cache  
+- But first thing, first conditional components rendering. This needs to be a focus first as splitting functionality into the components help with the reuse.
+
 
   
   
