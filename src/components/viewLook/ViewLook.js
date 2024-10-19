@@ -54,6 +54,9 @@ export default class ViewLook extends Component {
                             <Menu.Item key="6">Team 1</Menu.Item>
                             <Menu.Item key="8">Team 2</Menu.Item>
                         </SubMenu>
+                        <SubMenu key="sub3" icon={<TeamOutlined />} title="Components">
+                            <Menu.Item key="7"><Link to='/page1' Component={Page1}>Page 1</Link></Menu.Item>
+                        </SubMenu>
                         <Menu.Item key="9" icon={<FileOutlined />}>
                             Files
                         </Menu.Item>
