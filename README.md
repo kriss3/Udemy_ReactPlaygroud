@@ -6,8 +6,26 @@ rjsplayground - lightway of learning different react.js concepts.
 
 ## Description
 
-Project to learn and experiment with React features.
+Project to learn and experiment with React features.  
+- Starting with jsx and moving on to TypeScript.
+- Started with create-react-app via npx and moving on to vercel.
+- API calls to the backend (mainly ASP.NET WebApi) via Axios and moving on/extending to SWR library.  
+- Experimenting with different strategies for component decomposition.
+- Component development.
+- Bootstrap or Tailwind.
+- Managing the state. From props to passing down the top context api.smtp.com up until advanced liberal like Redux.
+- Next step, NetNinja. Get familiar with react outside of npx create-react-app.
+- I had a moment of realization today at work. I noticed I don't have fully understand component state using a combination of useState, useEffect and swr/fetcher.
+Planning to spend sometime to work on custom views that contain a composition of components that can depend on some state before/and/or after calls to external/different API endpoints.
+- Types vs interfaces in React.js app.
+- useFormik, simple dropdown and Read/Editing mode form to submit data to the Backend (form with edit/read-only mode) + edit existing values
+- Only allow you for editing License Number when existing record had previously license number. Every other uses default read only view
+- SWR lib and useSwr hook need more attention. Especially when setting up keys which swr will use to retrieve values from its cache  
+- But first thing, first conditional components rendering. This needs to be a focus first as splitting functionality into the components help with the reuse.
 
+
+  
+  
 ## Available Scripts
 
 In the project directory, you can run:
@@ -71,6 +89,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
