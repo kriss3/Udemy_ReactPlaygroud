@@ -23,7 +23,9 @@ Planning to spend sometime to work on custom views that contain a composition of
 - SWR lib and useSwr hook need more attention. Especially when setting up keys which swr will use to retrieve values from its cache  
 - But first thing, first conditional components rendering. This needs to be a focus first as splitting functionality into the components help with the reuse.
 - Leverage a storybook. Examples of base component with minor extensions making it a custom components, usable for particular cases
-- useFormik with asyc function along with useSwr. Async functions configured in 2 different scenarios. a) different purposes each with different data shapes  b) combined final shape required for awaiting calls  
+- useFormik with asyc function along with useSwr. Async functions configured in 2 different scenarios. 
+    a) different purposes each with different data shapes  
+    b) combined final shape required for awaiting calls  
   
 ## Available Scripts
 
