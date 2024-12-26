@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+8This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Project Name
 
@@ -25,7 +25,8 @@ Planning to spend sometime to work on custom views that contain a composition of
 - Leverage a storybook. Examples of base component with minor extensions making it a custom components, usable for particular cases
 - useFormik with asyc function along with useSwr. Async functions configured in 2 different scenarios. 
     a) different purposes each with different data shapes  
-    b) combined final shape required for awaiting calls  
+    b) combined final shape required for awaiting calls
+-  Fix Security Issues reported by Dependabot  
   
 ## Available Scripts
 
