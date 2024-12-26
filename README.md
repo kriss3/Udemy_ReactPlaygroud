@@ -26,7 +26,8 @@ Planning to spend sometime to work on custom views that contain a composition of
 - useFormik with asyc function along with useSwr. Async functions configured in 2 different scenarios. 
     a) different purposes each with different data shapes  
     b) combined final shape required for awaiting calls
--  Fix Security Issues reported by Dependabot  
+-  Fix Security Issues reported by Dependabot
+-  Update project as create-react-app is not supported anymore 
   
 ## Available Scripts
 
